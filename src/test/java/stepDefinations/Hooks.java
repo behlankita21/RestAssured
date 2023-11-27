@@ -15,7 +15,9 @@ public class Hooks {
 			t.add_place_payload_with("Shetty", "French", "Asia");
 			t.user_calls_with_http_request("AddPlaceAPI", "POST");
 			t.verify_place_id_created_maps_to_using("Shetty", "getPlaceAPI");
+			System.out.println("hello");
 		}
 	}
+
 
 }
